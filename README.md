@@ -51,3 +51,4 @@ Ein Programm um RSS-Feeds zu sammeln, zu speichern und anzuzueigen. Geschreiben 
       Add a TUI that allows you to select a post in the terminal and view it in a more readable format (either in the terminal or open in a browser)
       Add an HTTP API (and authentication/authorization) that allows other users to interact with the service remotely
       Write a service manager that keeps the agg command running in the background and restarts it if it crashes
+gator
