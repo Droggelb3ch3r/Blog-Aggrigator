@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate",
     "start": "tsx ./src/index.ts"
   },
   "keywords": [],
@@ -18,7 +20,7 @@
   },
   "dependencies": {
     "drizzle-orm": "^0.45.3",
-    "fast-xml-parser": "^5.11.1",
+    "fast-xml-parser": "^5.11.2",
     "postgres": "^3.4.9"
   }
 }

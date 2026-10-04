@@ -17,3 +17,8 @@ export async function getDBUsers() {
   const user = await db.select().from(users);
   return user;
 } // Achtung hier werden alle User als Array zurückgegeben, nicht nur ein User.
+
+export async function getUserById(id: string) {
+  const [user] = await db.select().from(users).where(eq(users.id, id));
+  return user;
+} // Die [] Klammern sind wichtig, da wir nur einen User zurückgeben wollen, nicht ein Array.
